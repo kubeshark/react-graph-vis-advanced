@@ -3,7 +3,7 @@ import defaultsDeep from "lodash/fp/defaultsDeep";
 import isEqual from "lodash/isEqual";
 import differenceWith from "lodash/differenceWith";
 import intersectionWith from "lodash/intersectionWith";
-import { DataSet } from "vis-data";
+import visData from "vis-data";
 import { Network } from "vis-network-advanced";
 import uuid from "uuid";
 import PropTypes from "prop-types";
@@ -48,9 +48,9 @@ class Graph extends Component {
   }
 
   componentDidMount() {
-    this.edges = new DataSet();
+    this.edges = new visData.DataSet();
     this.edges.add(this.props.graph.edges);
-    this.nodes = new DataSet();
+    this.nodes = new visData.DataSet();
     this.nodes.add(this.props.graph.nodes);
     this.updateGraph();
   }
