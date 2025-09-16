@@ -1,7 +1,7 @@
 {
-  "name": "react-graph-vis",
+  "name": "react-graph-vis-advanced",
   "version": "1.0.7",
-  "description": "A react component to render nice graphs using vis.js",
+  "description": "A react component to render nice graphs using vis.js. Advanced functionality.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/crubier/react-graph-vis.git"
+    "url": "https://github.com/kubeshark/react-graph-vis-advanced.git"
   },
   "keywords": [
     "react-component",
@@ -30,8 +30,7 @@
     "lodash": "^4.17.15",
     "prop-types": "^15.5.10",
     "uuid": "^2.0.1",
-    "vis-data": "^7.1.2",
-    "vis-network": "^9.0.0"
+    "vis-data": "^7.1.2"
   },
   "devDependencies": {
     "@types/react": "^17.0.4",

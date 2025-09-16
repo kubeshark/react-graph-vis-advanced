@@ -2,7 +2,7 @@
 
 A React component to display beautiful network graphs using vis.js
 
-Show, don't tell: [Demo](http://crubier.github.io/react-graph-vis/)
+Show, don't tell: [Demo](http://crubier.github.io/react-graph-vis-advanced/)
 
 Make sure to visit [visjs.org](http://visjs.org) for more info.
 
@@ -23,7 +23,7 @@ This component takes three vis.js configuration objects as properties:
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import Graph from "react-graph-vis";
+import Graph from "react-graph-vis-advanced";
 
 import "./styles.css";
 // need to import the vis network css in order to show tooltip
@@ -77,15 +77,3 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-You can also check out the demo in the [`example`](https://github.com/crubier/react-graph-vis/tree/master/example) folder.

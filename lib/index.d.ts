@@ -1,4 +1,4 @@
-declare module "react-graph-vis" {
+declare module "react-graph-vis-advanced" {
     import { Network, NetworkEvents, Options, Node, Edge, DataSet, Data } from "vis";
     import { Component } from "react";
 
