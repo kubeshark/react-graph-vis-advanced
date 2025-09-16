@@ -29,8 +29,9 @@
   "dependencies": {
     "lodash": "^4.17.15",
     "prop-types": "^15.5.10",
-    "uuid": "^2.0.1",
-    "vis-data": "^7.1.2"
+    "uuid": "^3.4.0",
+    "vis-data": "^8.0.0",
+    "vis-network-advanced": "github:kubeshark/vis-network-advanced#v0.1.2"
   },
   "devDependencies": {
     "@types/react": "^17.0.4",
