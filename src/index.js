@@ -4,7 +4,7 @@ import isEqual from "lodash/isEqual";
 import differenceWith from "lodash/differenceWith";
 import intersectionWith from "lodash/intersectionWith";
 import { DataSet } from "vis-data";
-import { Network } from "vis-network";
+import { Network } from "vis-network-advanced";
 import uuid from "uuid";
 import PropTypes from "prop-types";
 
